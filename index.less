@@ -1,4 +1,4 @@
-/* Dracula Theme v0.7.0
+/* Tronacula Theme v0.7.0
  *
  * https://github.com/zenorocha/dracula-theme
  *
@@ -7,12 +7,13 @@
  * Code licensed under the MIT license
  * http://zenorocha.mit-license.org
  *
- * @author Zeno Rocha <hi@zenorocha.com>
+ * @original_author Zeno Rocha <hi@zenorocha.com>
+ * @modifier Ryan Schwers <schwers.r@gmail.com>
  */
 
 .editor, .editor .gutter {
-  background-color: #282a36;
-  color: #f8f8f2;
+  background-color: #14191f;
+  color: #aec2e0;
 }
 
 .editor.is-focused .cursor {
@@ -20,7 +21,7 @@
 }
 
 .editor.is-focused .selection .region {
-  background-color: #44475a;
+  background-color: #233930;
 }
 
 .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
@@ -32,30 +33,30 @@
 }
 
 .editor .indent-guide {
-  box-shadow: 1px 0 #444;
+  box-shadow: 1px 0 #293038;
 }
 
 .editor .gutter .line-number.git-line-modified,
 .editor .gutter .line-number.git-line-removed,
 .editor .gutter .line-number.git-line-added {
-  border-left-width: 5px;
-  padding-left: calc(0.5em - 5px);
+  border-left-width: 10px;
+  padding-left: calc(0.5em - 10px);
 }
 
 .comment {
-  color: #6272a4;
+  color: #324457;
 }
 
 .string {
-  color: #f1fa8c;
+  color: #6de2ff;
 }
 
 .constant.numeric {
-  color: #bd93f9;
+  color: #6de2ff;
 }
 
 .constant.language {
-  color: #bd93f9;
+  color: #6de2ff;
 }
 
 .constant.character, .constant.other {
@@ -66,7 +67,7 @@
 }
 
 .variable.other.readwrite.instance {
-  color: #ffb86c;
+  color: #d0dfe2;
 }
 
 .constant.character.escaped, .constant.character.escape, .string .source, .string .source.ruby {
@@ -74,7 +75,7 @@
 }
 
 .keyword {
-  color: #ff79c6;
+  color: #7483a3;
 }
 
 .storage {
@@ -82,28 +83,25 @@
 }
 
 .storage.type {
-  font-style: italic;
-  color: #8be9fd;
+  font-weight: bold;
+  color: #206d9c;
 }
 
 .entity.name.class {
-  text-decoration: underline;
-  color: #50fa7b;
+  color: #90cc5c;
 }
 
 .entity.other.inherited-class {
   font-style: italic;
-  text-decoration: underline;
-  color: #50fa7b;
+  color: #90cc5c;
 }
 
 .entity.name.function {
-  color: #50fa7b;
+  color: #d0dfe2;
 }
 
 .variable.parameter {
-  font-style: italic;
-  color: #ffb86c;
+  color: #90cc5c;
 }
 
 .entity.name.tag {
